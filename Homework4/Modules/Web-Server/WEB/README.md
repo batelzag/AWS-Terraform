@@ -1,1 +1,0 @@
-This module provisions WEB instances in public subnets with proper security groups, ALB and IAM role for nginx access logs upload.
