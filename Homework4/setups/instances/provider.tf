@@ -15,7 +15,6 @@ terraform {
 		workspace {
 			name = "Servers"
 		}
-	}
     required_version = ">= 0.12"
 	required_providers {
     aws = {
