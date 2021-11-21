@@ -13,13 +13,14 @@ terraform {
 		hostname = "app.terraform.io"
 		organization = "Batel-OpsSchool"
 		workspace {
-			name = "Network"
+			name = "Servers"
 		}
-    required_version = ">= 0.12"
+	}
+    	required_version = ">= 0.12"
 	required_providers {
-    	aws = {
-      		source  = "hashicorp/aws"
-      		version = "3.65"
+    		aws = {
+      			source  = "hashicorp/aws"
+      			version = "3.65"
 		}
 	}
 }
